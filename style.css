@@ -1,0 +1,28 @@
+/*root {
+    / * tamanho da fonte padrão: 16px - 100% - 1rem * /
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: var(--color-background);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+body,
+input,
+button,
+textarea {
+    /* font: 500 1.6rem popins; */
+    font-weight: 500;
+    font-family: Arial;
+    font size: 1.6rem;
+    color: var(--color-text-base);
+}
